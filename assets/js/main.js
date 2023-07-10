@@ -12,7 +12,6 @@ const modalQty = modalBody.querySelector('.itemQty');
 const modalPrice = modalBody.querySelector('.itemPrice');
 const modalOrigPrice = modalBody.querySelector('.itemOrigPrice');
 
-
 // Function to handle the click event
 function addToCart(event) {
   // Get the parent element of the clicked button
@@ -25,11 +24,6 @@ function addToCart(event) {
   // Get the product details from the parent element
   const imgSrc = parent.querySelector('.item-img img').src;
   const name = parent.querySelector('.item-text p').textContent;
-  
-//   const itemOriginal = parent.querySelector('.item-price .item-price-original').textContent;
-//   if(itemOriginal === "") {
-   
-//   }
 
   // Check if the item is on sale
   const itemPriceSale = parent.querySelector('.item-price .item-price-sale');
@@ -66,49 +60,3 @@ function addToCart(event) {
 buyButtons.forEach(button => {
   button.addEventListener('click', addToCart);
 });
-
-/*
-
-
-// Get all the "Buy" buttons
-const buyButtons = document.querySelectorAll('.buy-item button');
-
-// Get the dialog container and its content elements
-const modalBody = document.querySelector('.modal-body');
-const itemImg = modalBody.querySelector('.item-img');
-const itemName = modalBody.querySelector('.itemName');
-const itemDesc = modalBody.querySelector('.itemDesc');
-const itemSize = modalBody.querySelector('.itemSize');
-const itemColor = modalBody.querySelector('.itemColor');
-const itemQty = modalBody.querySelector('.itemQty');
-const itemPrice = modalBody.querySelector('.itemPrice');
-
-// Function to handle the click event
-function addToCart(event) {
-  // Get the parent element of the clicked button
-  const parent = event.target.closest('.recent-item');
-
-  // Get the product details from the parent element
-  const imgSrc = parent.querySelector('.item-img img').src;
-  const name = parent.querySelector('.item-text p').textContent;
-  const price = parent.querySelector('.item-price .item-price-normal').textContent;
-
-  // Update the content of the dialog container with the clicked item details
-  itemImg.innerHTML = `<img src="${imgSrc}" alt="">`;
-  itemName.textContent = name;
-  itemDesc.textContent = name;
-  itemSize.textContent = '';
-  itemColor.textContent = '';
-  itemQty.textContent = '';
-  itemPrice.textContent = `${price}`;
-
-  // Open the dialog container
-  // You can customize this part based on how you want to show the dialog (e.g., adding a CSS class to display it)
-  modalBody.style.display = 'block';
-}
-
-// Attach the click event listener to each "Buy" button
-buyButtons.forEach(button => {
-  button.addEventListener('click', addToCart);
-});
-*/
