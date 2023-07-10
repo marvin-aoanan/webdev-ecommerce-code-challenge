@@ -31,3 +31,18 @@
     width: 25px;
     height: 25px;
 }
+.icon-crown::before {
+    background-image: url('../images/icons/bx_bx-crown.png');
+}
+.icon-star::before {
+    background-image: url('../images/icons/bx_bx-star.png');
+}
+.icon-truck::before {
+    background-image: url('../images/icons/bx_bxl-delivery-truck.png');
+}
+.icon-pin::before {
+    background-image: url('../images/icons/bx_bx-map-pin.png');
+}
+.icon-tag::before {
+    background-image: url('../images/icons/bx_bx-purchase-tag.png');
+}

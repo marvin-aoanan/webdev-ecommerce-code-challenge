@@ -14,7 +14,7 @@
     <main>
         <div class="container-fluid">
 
-            <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
+            <header id="navigation" class="section-navigation d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
                 <div class="container-fluid text-center">
                     <div class="row align-items-center">
 
@@ -64,13 +64,90 @@
                     </div>
                 </div>
             </header>
-            <section id="benefits">
-              <div class="row">
-                <div class="col">1</div>
-                <div class="col">2</div>
-                <div class="col">3</div>
-                <div class="col">4</div>
-                <div class="col">5</div>
+            <section id="benefits" class="section-benefits d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col">
+                    <div class="benefits-text d-flex flex-wrap align-items-center justify-content-center">
+                      <span class="icon icon-crown"></span>
+                      <span>Exclusive Deals for VIP 2 and up</span>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="benefits-text d-flex flex-wrap align-items-center justify-content-center">
+                      <span class="icon icon-star"></span>
+                      <span>New Arrival</span>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="benefits-text d-flex flex-wrap align-items-center justify-content-center">
+                      <span class="icon icon-truck"></span>
+                      <span>Free Shipping On Orders Over $100</span>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="benefits-text d-flex flex-wrap align-items-center justify-content-center">
+                      <span class="icon icon-pin"></span>
+                      <span>Track Your Order</span>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="benefits-text d-flex flex-wrap align-items-center justify-content-center">
+                      <span class="icon icon-tag"></span>
+                      <span>10% Off On Your First Order!</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </section>
+            <section id="hero">
+              <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel" data-bs-theme="light">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+                    <div class="container">
+                      <div class="carousel-caption text-start">
+                        <h1>Example headline.</h1>
+                        <p class="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+                    <div class="container">
+                      <div class="carousel-caption">
+                        <h1>Another example headline.</h1>
+                        <p>Some representative placeholder content for the second slide of the carousel.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+                    <div class="container">
+                      <div class="carousel-caption text-end">
+                        <h1>One more for good measure.</h1>
+                        <p>Some representative placeholder content for the third slide of this carousel.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
 
             </section>

@@ -2,6 +2,7 @@
 @import url(variables.css);
 @import url(icons.css);
 @import url(style-header.css);
+@import url(style-benefits.css);
 
 body {
     background: url(../images/mockup.png) top center no-repeat;
@@ -13,8 +14,3 @@ body {
     line-height: normal;
     color: #000;
 }
-
-/* main {
-    padding-left: 13px;
-    padding-right: 13px;
-} */

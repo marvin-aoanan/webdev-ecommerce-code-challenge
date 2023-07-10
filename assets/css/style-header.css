@@ -1,7 +1,7 @@
-header {
+.section-navigation {
     height: 70px;
 }
-header .nav-link {
+.section-navigation .nav-link {
     color: var(--bs-black);
     font-size: 14px;
     font-weight: 400;
@@ -9,10 +9,10 @@ header .nav-link {
     padding: 9px 15px;
     text-transform: uppercase;
 }
-header .nav-link:hover {
+.section-navigation .nav-link:hover {
     color: var(--bs-black);
 } 
-header .nav-link.active {
+.section-navigation .nav-link.active {
     font-weight: 600;
 }
 .nav-icon li {

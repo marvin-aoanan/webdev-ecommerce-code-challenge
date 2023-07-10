@@ -1,0 +1,21 @@
+.section-benefits {
+    background-color: #F2F2F2;
+    height: 50px;
+    font-size: 12px;
+    font-weight: normal;
+    /* padding: 10px 0; */
+}
+.section-benefits .icon::before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+.benefits-text > span {
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+}
+.benefits-text > .icon {
+    margin-right: 15px;
+}
