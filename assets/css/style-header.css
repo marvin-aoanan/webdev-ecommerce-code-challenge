@@ -1,0 +1,5 @@
+header .nav-link {
+    color: var(--bs-black);
+    font-size: 14px;
+    font-weight: 400;
+}

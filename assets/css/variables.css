@@ -1,0 +1,4 @@
+:root {
+    --bs-font-montserrat-serif:  'Montserrat', serif;
+    --bs-body-font-family: var(--bs-font-montserrat-serif);
+}
