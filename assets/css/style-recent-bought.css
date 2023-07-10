@@ -27,7 +27,7 @@
     padding-right: 10px;
 
 }
-.recent-item .item-price-discounted {
+.recent-item .item-price-original {
     text-decoration: line-through;
     padding-right: 10px;
 }

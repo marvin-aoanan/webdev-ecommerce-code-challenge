@@ -12,10 +12,11 @@
 @import url(style-recent-bought.css);
 @import url(style-insta-post.css);
 @import url(style-newsletter.css);
+@import url(style-footer.css);
 
+@import url(style-shop.css);
 
 body {
-    /* background: url(../images/mockup.png) top center no-repeat; */
     background-size: 100%;
     font-family: 'Montserrat', serif;
     font-size: 14px;
@@ -26,4 +27,14 @@ body {
 }
 .row {
     align-items: center;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #444;
+    text-decoration: underline;
 }

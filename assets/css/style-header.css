@@ -8,6 +8,7 @@
     line-height: 17px;
     padding: 9px 15px;
     text-transform: uppercase;
+    text-decoration: none;
 }
 .section-navigation .nav-link:hover {
     color: var(--bs-black);
@@ -29,7 +30,7 @@
 }
 .currency .icon {
     float: left;
-    margin-top: 6px;
+    margin-top: 5px;
     margin-right: 5px;
 }
 .currency-symbol {
@@ -38,7 +39,7 @@
 .currency .btn {
     width: 110px;
     line-height: 35px;
-    padding: 0;
+    padding: 0 5px;
     text-align: left;
     border: 0;
 }

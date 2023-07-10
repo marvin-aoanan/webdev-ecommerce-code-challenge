@@ -46,3 +46,36 @@
 .icon-tag::before {
     background-image: url('../images/icons/bx_bx-purchase-tag.png');
 }
+.icon-facebook {
+    background-image: url('../images/icons/bx_bxl-facebook.svg');
+}
+.icon-instagram {
+    background-image: url('../images/icons/bx_bxl-instagram.svg');
+}
+.icon-twitter {
+    background-image: url('../images/icons/bx_bxl-twitter.svg');
+}
+.icon-youtube {
+    background-image: url('../images/icons/bx_bxl-youtube.svg');
+}
+.icon-pinterest {
+    background-image: url('../images/icons/bx_bxl-pinterest-alt.svg');
+}
+.icon-tiktok {
+    background-image: url('../images/icons/bx_bxl-tiktok.svg');
+}
+.icon-visa {
+    background-image: url('../images/icons/payment-visa.png');
+}
+.icon-mastercard {
+    background-image: url('../images/icons/payment-mastercard.png');
+}
+.icon-maestro {
+    background-image: url('../images/icons/payment-maestro.png');
+}
+.icon-amex {
+    background-image: url('../images/icons/payment-amex.png');
+}
+.icon-paypal {
+    background-image: url('../images/icons/payment-paypal.png');
+}
