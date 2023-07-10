@@ -1,0 +1,33 @@
+.section-recent-bought {
+    padding: 50px 40px;
+
+}
+.recent-item .item-text p {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    white-space: pre-wrap;
+    text-align: left;
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+.recent-item .item-price {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+}
+.recent-item .item-price-normal {
+    padding-right: 10px;
+
+}
+.recent-item .item-price-sale {
+    color: #C1272D;
+    padding-right: 10px;
+
+}
+.recent-item .item-price-discounted {
+    text-decoration: line-through;
+    padding-right: 10px;
+}

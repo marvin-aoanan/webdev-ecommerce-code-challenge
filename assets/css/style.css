@@ -9,10 +9,11 @@
 @import url(style-vip.css);
 @import url(style-trending.css);
 @import url(style-new-arrivals.css);
+@import url(style-recent-bought.css);
 
 
 body {
-    background: url(../images/mockup.png) top center no-repeat;
+    /* background: url(../images/mockup.png) top center no-repeat; */
     background-size: 100%;
     font-family: 'Montserrat', serif;
     font-size: 14px;
