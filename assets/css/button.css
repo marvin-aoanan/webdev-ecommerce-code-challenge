@@ -1,14 +1,13 @@
 .btn {
     color: #000;
     text-align: center;
-    font-family: Montserrat;
-    font-size: 36px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
     border: none;
     border-radius: 0;
+    gap: 15px;
 }
 
 .btn-primary {
@@ -17,14 +16,17 @@
     display: inline-flex;
     padding: 15px 30px;
     align-items: flex-start;
-    gap: 15px;
+    font-size: 36px;
 }
 .btn-secondary {
     display: inline-flex;
     padding: 10px 20px;
     align-items: flex-start;
-    gap: 15px;
     color: #FFF;
     font-size: 18px;
     background-color: #000;
+}
+.btn-sm {
+    font-size: 18px;
+    padding: 10px 20px;
 }
