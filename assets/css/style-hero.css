@@ -1,0 +1,29 @@
+.section-hero .carousel {
+    height: 650px;
+    overflow: hidden;
+}
+
+.hero-img img {
+    width: 100%;
+}
+.hero-img {
+    width: 100%;
+    position: relative;
+}
+.hero-text {
+    width: 640px;
+    position: absolute;
+    top: 35px;
+    right: 85px;
+    text-align: center;
+}
+.hero-btn {
+    margin-top: 20px;
+}
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
