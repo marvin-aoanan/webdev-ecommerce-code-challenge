@@ -5,7 +5,7 @@
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
-    gap: 15px;
+    margin: 0;
 }
 
 .btn-primary {
@@ -13,7 +13,7 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     display: inline-flex;
     padding: 15px 30px;
-    align-items: flex-start;
+    align-items: center;
     font-size: 36px;
     border: none;
     border-radius: 0;
@@ -22,7 +22,7 @@
 .btn-secondary {
     display: inline-flex;
     padding: 10px 20px;
-    align-items: flex-start;
+    align-items: center;
     color: #FFF;
     font-size: 18px;
     background-color: #000;
@@ -35,7 +35,7 @@
     padding: 10px 20px;
 }
 
-.btn-outline-dark {
+.btn-outline-dark .btn-tags {
     border-radius: 50px;
     font-size: 14px;
     font-weight: 600;

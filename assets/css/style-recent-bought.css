@@ -13,21 +13,21 @@
     text-overflow: ellipsis;
     margin: 0;
 }
-.recent-item .item-price {
+.item-price {
     font-size: 14px;
     font-weight: 600;
     text-align: left;
 }
-.recent-item .item-price-normal {
+.item-price-normal {
     padding-right: 10px;
 
 }
-.recent-item .item-price-sale {
+.item-price-sale {
     color: #C1272D;
     padding-right: 10px;
 
 }
-.recent-item .item-price-original {
+.item-price-original {
     text-decoration: line-through;
     padding-right: 10px;
 }

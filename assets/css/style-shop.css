@@ -1,6 +1,18 @@
+#addToShoppingBag .row {
+    align-items: flex-start;
+
+}
+
+#addToShoppingBag .btn {
+    margin: 7px auto;
+    text-align: center;
+    display: block;
+}
+
 .icon sup {
     color: #d63384a1;
     left: 13px;
     font-size: 12px;
     font-weight: 600;
+    text-decoration: none;
 }
