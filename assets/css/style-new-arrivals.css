@@ -1,0 +1,21 @@
+.section-new-arrivals {
+    height: 400px;
+    background-image: url('../images/section-new-bg.png');
+    background-size: cover;
+    color: #fff;
+    padding-top: 47px;
+}
+.new-arrival-text h2 {
+    font-size: 86px;
+    line-height: 86px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.new-arrival-text p {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.new-arrival-text .btn {
+    margin-top: 40px;
+}
