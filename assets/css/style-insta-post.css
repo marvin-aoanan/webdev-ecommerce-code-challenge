@@ -1,0 +1,13 @@
+.section-instagram-post {
+    background-color: #F2F2F2;
+    padding: 40px;
+}
+
+.post-items {
+    margin: 0 auto 30px;
+}
+
+.post-item img {
+    width: 225px;
+    height: 225px;
+}
