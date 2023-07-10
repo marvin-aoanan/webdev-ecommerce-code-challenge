@@ -5,8 +5,6 @@
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
-    border: none;
-    border-radius: 0;
     gap: 15px;
 }
 
@@ -17,7 +15,10 @@
     padding: 15px 30px;
     align-items: flex-start;
     font-size: 36px;
+    border: none;
+    border-radius: 0;
 }
+
 .btn-secondary {
     display: inline-flex;
     padding: 10px 20px;
@@ -25,8 +26,17 @@
     color: #FFF;
     font-size: 18px;
     background-color: #000;
+    border: none;
+    border-radius: 0;
 }
+
 .btn-sm {
     font-size: 18px;
     padding: 10px 20px;
+}
+
+.btn-outline-dark {
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
 }

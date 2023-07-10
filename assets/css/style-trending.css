@@ -1,0 +1,28 @@
+.section-trending {
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.section-title h3 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.section-title p {
+    margin-bottom: 20px;
+}
+
+.item-img img {
+    width: 225px;
+    height: 300px;
+}
+.item-text {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    white-space: nowrap;
+    padding: 5px 0;
+}
+.item-tags .btn {
+    margin: 25px 12px;
+}
